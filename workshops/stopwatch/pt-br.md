@@ -26,7 +26,7 @@ Você deve ter um conhecimento básico de:
 
 ### Configurando seu ambiente de código no Repl.it
 
-O [Repl.it](https://repl.it) é um editor de código online. Você não precisa usar o Repl.it, mas sugiro que use, uma vez que ele configura tudo para você e não é necessário instalar nada.
+[Spaces](https://spaces.hackclub.com) fornecem ambientes de desenvolvimento virtuais para os membros do Hack Club. Você não precisa usar Spaces, fique à vontade para usar o IDE de sua preferência.
 
 Além disso, preparei um código inicial para que você possa começar. Basta ir [aqui](https://repl.it/@biel42/Cronometro-Codigo-Inicial) e seu ambiente de de desenvolvimento irá iniciar em segundos ;)!
 
@@ -443,7 +443,7 @@ Aqui está o projeto finalizado:
 
 ## Parte 4: Final
 
-Se você ainda não criou uma conta no repl.it, faz lá, rapidão para salvar essa maravilhosa peça de arte que você acabou de criar!
+Você terminou o cronômetro! Mas sempre pode adicionar mais...
 
 Aqui estão algumas coisas que você pode fazer:
 

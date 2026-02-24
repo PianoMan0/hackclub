@@ -45,13 +45,9 @@ You should have a beginner understanding of:
 
 ### Setting up your code environment on Repl.it
 
-[Repl.it](https://repl.it) is an online code editor. You don't have to use Repl.it but I suggest you do as it sets everything up for you and you don't require any installations.
+[Spaces](https://spaces.hackclub.com) provides virtual development environments for Hack Clubbers. You don't have to use Spaces though, use your IDE of choice!
 
-To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). Your coding environment will spin up in just a few seconds!
-
-You should see something like the following:
-
-![Starting View](https://cloud-p7qnbqzo6.vercel.app/image.png)
+To get started, create a new Space. Your coding environment will spin up in just a few seconds! Then make an `index.html` file.
 
 ## Part 3: Building the project
 
@@ -477,10 +473,6 @@ Explanation: Now, whenever the button will be clicked, the `toggler()` function 
 ## Part 4: The End
 
 Now I hand this project to you! Its totally yours now!
-
-If you haven't created an account on [repl.it](https://repl.it), make sure you do so to save this wonderful piece of creation!
-
-If you still face difficulties in signing up watch [this](https://www.youtube.com/watch?v=Mtqp4CUepk0).
 
 Here are some things which you can do:
 

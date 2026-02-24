@@ -29,17 +29,28 @@ You should have a beginner understanding of:
 
 ## Part 2: Setup
 
-### Setting up your code environment on Repl.it
+### Setting up your code environment on Spaces.hackclub.com
 
-[Repl.it](https://repl.it) is an online code editor where you can build your clock. You don't have to use Repl.it but I suggest you do as it sets everything up for you and you don't require any installations.
+[Spaces](https://spaces.hackclub.com) provides virtual development environments for Hackclubbers. You can use this to build your clock. You don't have to use Spaces, however, go with your IDE of choice.
 
-To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). Your coding environment will spin up in just a few seconds!
+To get started, go to [https://spaces.hackclub.com](https://spaces.hackclub.com) and create a new Space. Your coding environment will spin up in just a few seconds!
 
-You should see something like the following:
+Create the following files: `index.html`, `script.js`, and `style.css`. In your index.html file, paste the following code:
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Clock</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <script src="script.js"></script>
+    </body>
+  </html>
+```
 
-![Image](https://cloud-p7qnbqzo6.vercel.app/image.png)
-
-## Part 3: Inspecting The Default Files
+## Part 3: Inspecting the Code
 
 ![Image](https://media.giphy.com/media/3o7bufkPz3LRof205G/giphy.gif)
 
@@ -48,10 +59,6 @@ You should see something like the following:
 Let us first take a look at the HTML file (`index.html`).
 
 At line 1 we have `<!DOCTYPE html>` This declares that this file is an HTML file. If we take a look in the `<html>` tag, we will find a `<body>` tag. Here's where we will write the code. Make sure that all the code you write is included between the opening and closing body tags. (`<body></body>`).
-
-Make sure to remove line 5 (`<meta name="viewport" content="width=device-width">`) which may cause some weird responsiveness issues for our workshop.
-
-![Image](https://cloud-8h5wlpd5b.vercel.app/metagif.gif)
 
 ### 2) The CSS file
 
@@ -88,7 +95,7 @@ This is what your code should look like so far:
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>repl.it</title>
+    <title>Clock</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -108,9 +115,9 @@ And that's it! We have completed writing our HTML.
 
 ### 2) CSS
 
-After we have done writing the HTML, you'll notice that when we click `RUN`, you just see a white screen. Let's now add some styles to our elements!
+After we have done writing the HTML, you'll notice that when we run our code, you just see a white screen. Let's now add some styles to our elements!
 
-Go to `style.css` in your repl.it directory. Let's start by adding some styles to our body! uhh... I meant `<body>`! Add the following code to your CSS:
+Go to your `style.css` file. Let's start by adding some styles to our body! uhh... I meant `<body>`! Add the following code to your CSS:
 
 ```css
 body {
@@ -523,15 +530,7 @@ setDate()
 
 ## Part 5: The End
 
-If you haven't created an account on [repl.it](https://repl.it), make sure you do so to save this wonderful piece of creation!
-
-Here's how you can create a repl.it account:
-
-![Image](https://cloud-940o4yxjv.vercel.app/image.png)
-
-![Image](https://cloud-18phelcmy.vercel.app/image.png)
-
-If you still face difficulties in signing up watch [this](https://www.youtube.com/watch?v=Mtqp4CUepk0).
+Your project is complete! However, there's always more you could add...
 
 Here are some things which you can do:
 

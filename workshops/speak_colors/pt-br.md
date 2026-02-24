@@ -14,7 +14,7 @@ Usaremos a [p5.js](https://p5js.org) e a biblioteca p5.speech para tornar o reco
 
 ## Configuração
 
-Primeiro, vamos fazer um novo projeto HTML no [repl.it](https://repl.it): [comece um projeto aqui](https://repl.it/languages/html).
+Primero, creemos un nuevo Espacio en [spaces.hackclub.com](https://spaces.hackclub.com) y creamos un archivo index.html.
 
 Em seguida, precisamos importar as bibliotecas p5 e p5.speech. Como são URLs longos, basta substituir o arquivo `index.html`por este:
 

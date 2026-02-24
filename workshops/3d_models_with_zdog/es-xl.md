@@ -20,9 +20,9 @@ Aquí hay un [demo en vivo](https://repl.it/@wollygfx/Hack-Club-logo) de lo que 
 
 Este taller requiere de unos conocimientos básicos en los siguientes lenguajes de programación: HTML y JavaScript. ¡No te preocupes si te quedas atascado en algún punto del taller, todo está explicado de la mejor manera posible!
 
-Para este taller utilizaremos [Repl.it](https://repl.it), clic [aquí](https://repl.it/languages/html) para crear un entorno de programación para este taller.
+Para este taller utilizaremos [Spaces](https://spaces.hackclub.com), para crear un entorno de programación ideal para el taller.
 
-![Configuración](https://cloud-qbmylslty.vercel.app/0image.png)
+Una vez que hayas creado tu Space, crea un archivo llamado `index.html`.
 
 ## Sección HTML
 

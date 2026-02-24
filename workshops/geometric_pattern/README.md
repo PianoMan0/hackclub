@@ -26,11 +26,9 @@ We'll be creating a cool graphic like the one above, using JavaScript and p5.js.
 
 ## Part I: Set-up
 
-First, go to [Repl.it](https://repl.it) and spin up a new [HTML repl](https://repl.it/languages/html)
+First, go to [Spaces](https://spaces.hackclub.com) and spin up a new Space.
 
-![](https://cloud-gs02m02vf-hack-club-bot.vercel.app/5html_repl.png)
-
-From here, clear the contents of `index.html` and put the following in its place
+From here, create an `index.html` file and add the following code:
 
 ```html
 <!DOCTYPE html>
@@ -232,9 +230,7 @@ As with the previous while-loop's `x`, we're executing the code inside the `{` a
 
 Using this incrementing `y` variable as our y-coordinate is how we're able to draw rows up and down the canvas.
 
-Go ahead and **Run** your repl to see your updated website!
-
-![](https://cloud-gs02m02vf-hack-club-bot.vercel.app/2circle_array.png)
+Go ahead and **Run** your code to see your updated website!
 
 ### Offsetting the Circles in the Y-Direction
 
@@ -438,7 +434,7 @@ If your page has frozen, you've probably introduced an infinite loop. Refresh yo
 
 Save to see the changes!
 
-**Run** your repl once again now that we've done some more work.
+**Run** your code once again now that we've done some more work.
 
 ## Part III: Adding Color
 
@@ -548,7 +544,7 @@ This code says that if the user presses a key with the `keyCode` 115 or 83 (whic
 
 The `return false;` at the end of the function tells the browser to ignore any default behavior that might be associated with the pressed key (ex. if you press <kbd>enter</kbd>, the browser thinks that you're trying to submit a form by default -- this prevents that).
 
-Now let's **Run** the repl once again
+Now let's **Run** the code once again
 
 ### Making It Live
 

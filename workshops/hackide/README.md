@@ -28,12 +28,10 @@ You just need to have a basic understanding of them to follow along in this work
 
 ## Setup
 
-We will be using [Repl.it](https://repl.it) in this workshop. It is an online coding tool and is really easy to use.
+We will be using [Spaces](https://spaces.hackclub.com) in this workshop. It is an online coding tool and is really easy to use.
 
-We will be using HTML,Javascript and CSS in this workshop. To get started go to [https://repl.it/languages/html](https://repl.it/languages/html). This will spin up a coding environment for you!
+We will be using HTML, Javascript and CSS in this workshop. To get started, create a new Space. This will spin up a coding environment for you!
 <br/>
-
-![Setup Image](img/setup.png)
 
 ## Layout
 
@@ -43,6 +41,24 @@ This is what the layout of the IDE is going to look like:
 
 We will be using Flexbox to implement this layout. This is an awesome [resource](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to get started with Flexbox.
 
+## Add this code
+
+Create `index.html`, `script.js`, and `style.css` files. Then add the following code to your `index.html` file:
+```html
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>HackIDE</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+      <script src="script.js"></script>
+    </body>
+  </html>
+```
+
 ## Making The Header
 
 Now we will start by making the header for our application. We will define its structure in the index.html file and then we will style it in the style.css file.
@@ -51,21 +67,6 @@ Remember HTML is for defining the structure of your website while CSS is for sty
 
 ![Header Image](img/header.png)
 
-## Working with index.html
-
-Your index.html file already has some HTML code written in it make the following changes in it.
-
-### Changing the <title\> tag
-
-The <title\> tag has name _repl.it_, this is the name which will show up on the tab of your browser when you open your website ( for our project it will be seen when we will open it in a new tab )
-
-![Title Image](img/title.png)
-
-Change it to **Hack IDE** from **repl.it**.
-
-```html
-<title>Hack IDE</title>
-```
 
 ### Adding <header\>
 

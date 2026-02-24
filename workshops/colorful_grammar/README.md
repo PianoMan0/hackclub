@@ -13,7 +13,7 @@ Converting words to colors is a difficult concept to wrap your head around when 
 
 ## Getting started
 
-Create a new Repl.it project at [replit.com/languages/html](https://replit.com/languages/html).
+Go to [spaces.hackclub.com](https://spaces.hackclub.com) and create a new Space. In that Space, create an index.html file.
 
 To make things a little easier for us, we’re going to be using [jQuery](https://jquery.com), a popular JavaScript library that simplifies writing certain common JavaScript tasks. You’ll get to see how jQuery can be really useful throughout this workshop.
 
@@ -38,7 +38,7 @@ In the `<body>` of your `index.html` file, under the line where `script.js` is i
 <textarea id="sentence" autofocus></textarea>
 ```
 
-This creates a [textarea](https://www.w3schools.com/tags/tag_textarea.asp) element with the id “sentence”, and automatically focuses on it so that you don’t have to click on it to start typing. If you run your repl, you’ll see this textarea in the top left corner.
+This creates a [textarea](https://www.w3schools.com/tags/tag_textarea.asp) element with the id “sentence”, and automatically focuses on it so that you don’t have to click on it to start typing. If you run your code, you’ll see this textarea in the top left corner.
 
 In order to be able to use this textarea as our writing canvas, we’ll need to do some CSS work. Namely:
 
@@ -66,7 +66,7 @@ textarea {
 }
 ```
 
-When you run your repl, you should see that the textarea appears to have disappeared. But if you click at the top left corner of the preview, you’ll notice that you can still type. The textarea is still there—you’ve just made it invisible.
+When you run your code, you should see that the textarea appears to have disappeared. But if you click at the top left corner of the preview, you’ll notice that you can still type. The textarea is still there—you’ve just made it invisible.
 
 We still need to make the textarea fill the whole screen. Add `width: 100%;` and `height: 100%;` to the `textarea` block in your `style.css` file. While you’re at it, go ahead and also add `font-size: 48px`, which makes the font size bigger.
 
@@ -94,7 +94,7 @@ body {
 
 to your `style.css` file.
 
-When you run your repl, you’ll notice that the textarea fills the whole screen! But if you type too much, it’ll shift a little bit to the right, obscuring some of the text. We can fix this by adding `padding: 0;` to the `textarea` block.
+When you run your code, you’ll notice that the textarea fills the whole screen! But if you type too much, it’ll shift a little bit to the right, obscuring some of the text. We can fix this by adding `padding: 0;` to the `textarea` block.
 
 Now the textarea fills the whole screen without overflowing!
 
@@ -265,7 +265,7 @@ $(document).ready(function () {
 })
 ```
 
-When you run your repl, you should be greeted by a blank red screen. Click on the preview and start typing a bunch of words. You should see the background color change as you type each word!
+When you run your code, you should be greeted by a blank red screen. Click on the preview and start typing a bunch of words. You should see the background color change as you type each word!
 
 ## Hacking
 

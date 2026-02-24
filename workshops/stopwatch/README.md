@@ -26,7 +26,7 @@ You should have a beginner understanding of:
 
 ### Setting up your code environment on Repl.it
 
-[Repl.it](https://repl.it) is an online code editor. You don't have to use Repl.it but I suggest you do as it sets everything up for you and you don't require any installations.
+[Spaces](https://spaces.hackclub.com) provide virtual development environments for Hack Clubbers. You don't have to use Spaces though, feel free to use your IDE of choice.
 
 Also, I have prepared a starter code for you to begin with. Just go [here](https://repl.it/@FaisalSayed1/Stopwatch-Starter-Code) and your coding environment will spin up in just a few seconds!
 
@@ -449,7 +449,7 @@ Here's the final output:
 
 ## Part 4: The End
 
-If you haven't created an account on repl.it, make sure you do so to save this wonderful piece of creation!
+You've completed your stopwatch! However, there's always more you could add...
 
 Here are some things which you can do:
 

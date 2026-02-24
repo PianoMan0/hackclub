@@ -18,7 +18,7 @@ We’ll be using [p5.js](https://p5js.org) & the p5.speech library to make somet
 
 ## Setup
 
-First, let’s make a new HTML project on [repl.it](https://repl.it): [start one right here](https://repl.it/languages/html).
+First, let’s make a new Space on [spaces.hackclub.com](https://spaces.hackclub.com) and create an index.html file.
 
 Next, we need to import the p5 & p5.speech libraries. Because these are long URLs, just replace the file with this:
 

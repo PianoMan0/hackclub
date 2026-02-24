@@ -37,7 +37,7 @@ You should also know the basics of [Arrays](https://www.w3schools.com/js/js_arra
 
 ### Setting up your code environment on Repl.it
 
-[Repl.it](https://repl.it) is an online code editor. You don't have to use Repl.it but I suggest you do as it sets everything up for you and you don't require any installations.
+[Spaces](https://spaces.hackclub.com) provides virtual development environments for Hack Clubbers. You don't have to use Spaces though, use your IDE of choice!
 
 To get started, go to [this starter code](https://repl.it/@FaisalSayed1/Starter-Code). Now you'll see a 'fork' option on the top. Click it and your coding environment will spin up in just a few seconds!
 
@@ -411,9 +411,7 @@ Try to type the Konami Code which you have specified on the website and see the 
 
 ## Part 4: The End
 
-If you haven't created an account on [repl.it](https://repl.it), make sure you do so to save this wonderful creation!
-
-If you face any difficulties in signing up, [watch this](https://www.youtube.com/watch?v=Mtqp4CUepk0).
+Congrats, your project is complete!
 
 Now it is up to you! Do anything with this project, try to implement an easter egg similar to this in your other websites!
 

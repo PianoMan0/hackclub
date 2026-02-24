@@ -2,7 +2,7 @@
 name: 'Synth'
 description: 'Let’s make a synth pad with Tone.js'
 author: '@polytroper'
-begin: 'https://repl.it/languages/html'
+begin: 'https://spaces.hackclub.com'
 img: 'https://cloud-eauokmvh8-hack-club-bot.vercel.app/0demo-6.png'
 ---
 
@@ -20,11 +20,9 @@ Note to club leaders: This workshop is noisy, so **remind people to bring headph
 
 ## Getting Started
 
-Open up a new HTML project here: https://repl.it/languages/html
+Go to [spaces.hackclub.com](https://spaces.hackclub.com) and create a new Space.
 
-Delete _everything_. You should be left with a blank `index.html` file and that's it:
-
-![Our starter project](https://cloud-msd3socsg-hack-club-bot.vercel.app/3new_project.png)
+In that space create a index.html file.
 
 We're going to do everything in one file, for the sake of simplicity.
 
@@ -93,9 +91,10 @@ Now if you run the page, you should get a big black rectangle. Which is pretty e
 
 ## JavaScript
 
-Let's make some noise using Tone.js. Search for "Tone" in the Packages tab and click the Plus icon. Repl.it will insert a snippet of code into your file that tells a browser to load Tone.js with this page.
-
-![Click packages and install tone in Replit](https://cloud-msd3socsg-hack-club-bot.vercel.app/2import_tone.gif)
+Let's make some noise using Tone.js. First we need to add it. Add the following code to your project:
+```html
+<script src="https://unpkg.com/tone"></script>
+```
 
 Let's add some code to make Tone do something simple. Try putting this into your `script` section:
 

@@ -27,9 +27,9 @@ Draw with one or more friends! In this project we'll be combining HTML, p5.js, F
 
 ### Setting up the Files
 
-As always, we'll go to Repl.it and spin up a new [HTML repl](https://repl.it/languages/html)
+Go to [spaces.hackclub.com](https://spaces.hackclub.com)and spin up a new Space. 
 
-Next, clear the contents of `index.html` and put the following in its place:
+Then create an `index.html` file and add the following code:
 
 ```html
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ var config = {
 firebase.initializeApp(config)
 ```
 
-After copying the code snippet above, head back to Firebase and select the `Auth` tab on the left-hand side. Select `SET UP SIGN-IN METHOD` from the top menu bar, and click `ADD DOMAIN`. Enter `repl.co` and click `ADD`.
+After copying the code snippet above, head back to Firebase and select the `Auth` tab on the left-hand side. Select `SET UP SIGN-IN METHOD` from the top menu bar, and click `ADD DOMAIN`. Enter `spaces.hackclub.com` and click `ADD`.
 
 Next, go to the `Database` tab on the left-hand side. Change the Database type by selecting Drop-Down after the word Database to say "Real-time Database". Within the `Database` tab, we're going to select `Rules`. Here we'll set database permissions for reading and writing to `true`.
 
@@ -439,14 +439,12 @@ Congratulations! Your collaborative drawing app is now complete.
 
 ## Part IV: Publishing and Sharing
 
-Make sure you're logged into your Repl.it account and press **Run** with the most recent code.
-
-Share your URL to the [`#ship`](https://hackclub.slack.com/messages/ship/) channel on Slack, so that everyone can collaborate together!
+Share your project to the [`#ship`](https://hackclub.slack.com/messages/ship/) channel on Slack, so that everyone can collaborate together!
 
 ## Part V: Hacking
 
 You can create other collaboration-driven projects using Firebase, such as a story game! Or use Firebase to organize an internet scavenger hunt!
 
-**Examples:**
+**Example:**
 
 - [Draw continuous lines](https://maxwofford.com/collaborative_sketch/)

@@ -18,7 +18,7 @@ One of the most common myths about coding among people who are first learning to
 
 ## Getting started
 
-Start by creating a new HTML project on repl.it by going to [repl.it/languages/html](https://repl.it/languages/html).
+Start by creating a new Space on [spaces.hackclub.com](https://spaces.hackclub.com) and creating an index.html file.
 
 We’re going to be using a library called [Paper.js](http://paperjs.org), which makes it easy to create cool visuals on an [HTML canvas](https://www.w3schools.com/html/html5_canvas.asp).
 

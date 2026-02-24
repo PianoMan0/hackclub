@@ -22,9 +22,9 @@ Here's a [live demo](https://repl.it/@wollygfx/Hack-Club-logo) of what we will m
 
 This workshop requires a very basic knowledge of the following languages: HTML & JS. Don’t worry if you get stuck at some point in the workshop, everything is explained the best way for you to understand!
 
-For this workshop we will use [Repl.it](https://repl.it), click [here](https://repl.it/languages/html) to create a coding environment right for this workshop.
+For this workshop we will use [Spaces](https://spaces.hackclub.com), to create a coding environment right for this workshop.
 
-![Setup](https://cloud-qbmylslty.vercel.app/0image.png)
+Once your Space is created, make an `index.html` file.
 
 ## HTML part
 
