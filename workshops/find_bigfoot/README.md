@@ -28,7 +28,7 @@ Links to a live demo and the final code below. This workshop should take around 
 
 ## Set Up the Project
 
-Open a new HTML project on [**repl.it**/languages/html](https://repl.it/languages/html)
+Open a new HTML project on [spaces.hackclub.com](https://spaces.hackclub.com)
 
 ### Get Images for the Game
 
