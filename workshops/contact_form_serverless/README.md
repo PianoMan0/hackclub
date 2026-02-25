@@ -17,7 +17,7 @@ You will be making an [API](https://en.wikipedia.org/wiki/API) that allows someo
 
 **Average time for completion:** You can complete this in <u>15-20 minutes</u>. You will need the following tools:
 
-- [Repl.it](https://repl.it/) online coding platform (no account necessary, but highly recommended)
+- [Spaces](https://spaces.hackclub.com) - an online coding platform
 - [Github](https://github.com/) account
 - [Netlify](https://netlify.com/) account
 
@@ -31,20 +31,19 @@ Link to site: https://LowestDirtyQuarks--shreygupta1.repl.co
 
 ### First, let's make the form that you want to receive emails with.
 
-1. Go to to [Repl.it](https://repl.it/) and either:
+1. Go to to [spaces.hackclub.com](https://spaces.hackclub.com) and:
 
-   1. Create an account
-   2. Click the "Start coding" button on the top right
+   1. Click "Get Started"
+   2. Login
 
    **The website will look a little like this:** 
 
-   ![Repl.it website)@2x](https://cloud-cnenr6ov1.vercel.app/0image.png)
+   ![Space website)@2x](https://cdn.hackclub.com/019c9638-93f1-72b3-9cf6-cefa7ba9084e/image.png)
 
-1. Choose "HTML/CSS/JS"
+2. Create a new Space
+   1. Then make an `index.html` file
 
-   1. This means that we will be coding in different web languages. HTML is like the text files, CSS is similar to the design element, and JS is anything special like animations, etc.
-
-2. The first thing we want to do is create an [HTML form](https://www.w3schools.com/html/html_forms.asp). An HTML form is used to collect input from the user and (typically) send it to a specific server to handle that data. In our case, we haven't made our server yet, but we'll be taking the data into our server, then using that data to send an email.
+3. The first thing we want to do is create an [HTML form](https://www.w3schools.com/html/html_forms.asp). An HTML form is used to collect input from the user and (typically) send it to a specific server to handle that data. In our case, we haven't made our server yet, but we'll be taking the data into our server, then using that data to send an email.
 
    1. A form element is wrapped with a `<form>` tag.
       - Here is a sample code block with a form:
@@ -103,7 +102,7 @@ Link to site: https://LowestDirtyQuarks--shreygupta1.repl.co
 
    **After you have this code in, you website should look like this:**
 
-   ![Screenshot of what your Repl dashboard and website should look like](https://cloud-frgydm7lb.vercel.app/0image.png)
+   ![Screenshot of what your code website should look like](https://cloud-frgydm7lb.vercel.app/0image.png)
 
    Above I talked a little bit about about [_HTML tag properties_](https://www.w3schools.com/html/html_attributes.asp). People have different words for these, like HTML attributes or properties. I like to call them properties (or props) because it helps when understanding more complex web languages like [React](https://reactjs.org/).
 
@@ -121,7 +120,7 @@ Link to site: https://LowestDirtyQuarks--shreygupta1.repl.co
 
    Try to understand what this line of code is doing. We are SENDING data (b/c it's post) to a PATH called "/hello" -- When there isn't any domain involved in the URL/path, the code assumes it to be the current domain and location of the HTML file.
 
-   Try opening your [repl.it](https://repl.it) website using the external link button on the top right. Enter all the data in the form and see what happens.
+   Now try running your code. Enter all the data in the form and see what happens.
 
    - Once you try it and click submit, you may realize that it takes you to a dead link! Little did you know that it tried sending data to a server that isn't real.
    - Let's dig a little bit deeper and see what that data looks like.
@@ -226,7 +225,7 @@ Link to site: https://LowestDirtyQuarks--shreygupta1.repl.co
 
       ![GIF of signing in to Netlify, creating a new site from a repo, and looking at the functions tab](https://cloud-ftpbk3pur.vercel.app/0screenshot_taken_by_shrey_on_11-06-2020_at_10.11__30_.gif)
 
-   7. This is exciting! Now I can get emails from my server. I just need to connect my server and my repl.it site together!
+   7. This is exciting! Now I can get emails from my server. I just need to connect my server and my site together!
 
       1. Remember the `x-www-form-urlencoded` item we had originally posted to the blank server when we first made the frontend website? We are going to need that data again here.
 
@@ -321,7 +320,7 @@ Link to site: https://LowestDirtyQuarks--shreygupta1.repl.co
    ></form>
    ```
 
-   9. Now, if we submit the form on the repl.it page, we should get an email! Congratulations, you did it!
+   9. Now, if we submit the form on the page, we should get an email! Congratulations, you did it!
 
 ### Extending the website
 

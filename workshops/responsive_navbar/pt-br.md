@@ -384,8 +384,6 @@ E com isto, terminamos nosso **projeto!** Confira o que você acabou de construi
 
 Agora eu entrego este projeto a vocês! É totalmente seu agora!
 
-Se você ainda não criou uma conta no [repl.it](https://www.repl.it/), certifique-se de criar para salvar esta maravilhosa criação!
-
 Se você ainda enfrentar dificuldades para se inscrever, assista [esse](https://www.youtube.com/watch?v=Mtqp4CUepk0) video.
 
 Aqui estão algumas coisas que você pode fazer:

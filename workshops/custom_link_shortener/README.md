@@ -6,6 +6,8 @@ img: 'https://cloud-e15trekvp.vercel.app/0image.png'
 
 ---
 
+NOTE: If you're following this workshop directly, it might not work right now. This workshop uses Replit, which has changed a lot since this workshop was first made. If you have enough experience to get through the workshop, great! If not, try one of our other [workshops](https://workshops.hackclub.com). Apologies for the inconvenience!
+
 In this workshop, you will learn how to use:
 
 - [Express JS servers](https://expressjs.com/)

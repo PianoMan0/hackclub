@@ -22,36 +22,18 @@ Some basic understanding of HTML, CSS and Javascript/JSON.
 
 If you don't know any of the above, don't worry! This workshop will guide you through it.
 
-## 2. Setting up the project on Repl.it
+## 2. Setting up the project on Spaces
 
-We're going to be using [Repl.it](https://repl.it) for this workshop. Repl.it is a powerful collaborative online code editor.
+We're going to be using [spaces.hackclub.com](https://spaces.hackclub.com) for this workshop. Spaces is a powerful online code editor.
 
-Start by creating a [new HTML/CSS repl.it project](https://repl.it/languages/html).
+Start by creating a new Space.
 
-You should see three files: `index.html`, `style.css`, and `script.js`.
+Then create three files: `index.html`, `style.css`, and `script.js`.
 
-![repl.it screen](https://cloud-9hqnkjk42.vercel.app/0screenshot_from_2020-10-26_14-54-39.png)
 
 ## 3. Making a skeleton of the app
 
-Let's start by adding some code to the `index.html` file. The basic lines are already added in the file.
-
-At line 1 we have `<!DOCTYPE html>`. This declares that this file is an `HTML` file. If we take a look in the `<html>` tag, we will find a `<body>` tag. Here's where we will write the code.
-If you take a look in the `<head>` tag in your `HTML`, you will find a line of code
-
-```html
-<link href="style.css" rel="stylesheet" type="text/css" />
-```
-
-This means that your HTML file is linked to your CSS file and if you look at the `<body>` tag you will find
-
-```html
-<script src="script.js"></script>
-```
-
-This means that your HTML file is linked to your JavaScript.
-
-Let us start the project by changing the title of the project. After changing the title, the HTML file will look something like this:
+Let's start by adding some code to the `index.html` file. Copy/paste the following:
 
 ```html
 <!DOCTYPE html>
@@ -68,7 +50,24 @@ Let us start the project by changing the title of the project. After changing th
 </html>
 ```
 
-Apart from the default `script.js` file, we will also be using [`moment.js`](https://momentjs.com/), a JavaScript library to display the date and time of the user.
+Let's break this down.
+
+At line 1 we have `<!DOCTYPE html>`. This declares that this file is an `HTML` file. If we take a look in the `<html>` tag, we will find a `<body>` tag. Here's where we will write the code.
+If you take a look in the `<head>` tag in your `HTML`, you will find a line of code
+
+```html
+<link href="style.css" rel="stylesheet" type="text/css" />
+```
+
+This means that your HTML file is linked to your CSS file and if you look at the `<body>` tag you will find
+
+```html
+<script src="script.js"></script>
+```
+
+This means that your HTML file is linked to your JavaScript.
+
+Apart from the `script.js` file, we will also be using [`moment.js`](https://momentjs.com/), a JavaScript library to display the date and time of the user.
 
 To link external file like `moment.js` we will use [`CDNJS`](https://cdnjs.com/) which is an open-source CDN service powered by Cloudflare.
 
@@ -192,7 +191,7 @@ If you want to customize the color, you can use W3School's [HTML Color Picker](h
 We will set the display value as `flex` because `flex` enables you to align your items perfectly to the center without using float or positioning.
 Also, we will add `font-size`, `line-height` and `font-family` for styling the text inside our body.
 
-Navigate to the `style.css` file in your repl and add:
+Navigate to the `style.css` file in your Space and add:
 
 ```css
 body {
@@ -590,10 +589,6 @@ function showWeather(details) {
 ```
 
 Yippee! We have now finished coding our weather app and the App is ready to be used.
-
-To see the result, click the green `Run` button at the top of your repl.
-
-![app](https://cloud-9ofo2uek2.vercel.app/0repl.gif)
 
 ## 6. Hacking
 

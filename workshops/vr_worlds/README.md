@@ -15,9 +15,25 @@ Here is the [live demo](https://vr-world.wollygfx.repl.co/) and the [source code
 
 This workshop requires a very basic knowledge of HTML. Don’t worry if you get stuck at some point in the workshop, everything is explained the best way for you to understand!
 
-For this workshop we will use Repl.it, a free, online code editor. Click [here](https://repl.it/languages/html) to get started with a new HTML project on repl.it.
+For this workshop we will use [Spaces](https://spaces.hackclub.com), a free, online code editor for Hack Clubbers. 
 
-![Setup](https://cloud-qbmylslty.vercel.app/0image.png)
+Go to [spaces.hackclub.com](https://spaces.hackclub.com), click "Get Started", login, and click "Create New Space".
+
+Then, create the following files: `index.html`, `style.css`, and `script.js`. In your `index.html` file, copy/paste the following code:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VR Worlds</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ##  Setting up A-frame
 
@@ -76,9 +92,7 @@ This will render a beautifully textured sky.
 
 ![Sky texture](https://cloud-dytwphipl.vercel.app/0screen_recording_2020-11-16_at_6.19.29_pm.gif)
 
-Uploading images to Repl.it is very simple, just go to the navigation bar and click on **Upload file**:
-
-![Uploading files to Repl.it](https://cloud-3vcjp49bp.vercel.app/0image.png)
+Uploading images to Spaces is very simple, just drag and drop your image into the left sidebar.
 
 Now that we have a sky, we'll need a floor too. We can simply do this using the `<a-plane>` component.
 ```html

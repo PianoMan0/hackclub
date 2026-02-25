@@ -44,11 +44,11 @@ Practically a parallax is composed of more than one layer in parallel, moving al
 
 ### Setup
 
-We will use [Repl.it](https://repl.it) to build this project.
+We will use [Spaces](https://spaces.hackclub.com) to build this project.
 
-Repl.it is an online code editor. It's similar to Google Docs, but has some important features that make it much better for typing code than a regular text editor.
+Spaces provides virtual development environments for Hackclubbers. It's similar to Google Docs, but has some important features that make it much better for typing code than a regular text editor.
 
-Fork this repl and explore! [here](https://repl.it/@Giridharhackclu/parallax-starter#index.html).
+Create a new space, fork [this](https://repl.it/@Giridharhackclu/parallax-starter#index.html) repl, and copy the code over to your Space.
 
 It contains three `div` elements with classes `layer l1`, `layer l2` and `layer l3` added with some basic styles.
 

@@ -13,9 +13,25 @@ Here's a [live demo](https://2-image-editor.wollygfx.repl.co) and the [source co
 ## Set Up
 This workshop requires a basic knowledge of the following languages: HTML, CSS & JS. Don’t worry if you get stuck at some point in the workshop, everything is explained the best way for you to understand!
 
-For this workshop we will use [Repl.it](https://repl.it/), a free, online code editor. Click [here](https://repl.it/languages/html) to get started with a new HTML project on repl.it.
+For this workshop we will use [Spaces](https://spaces.hackclub.com), a free, online code editor for Hack Clubbers. 
 
-![Repl.it](https://cloud-qbmylslty.vercel.app/0image.png)
+Go to [spaces.hackclub.com](https://spaces.hackclub.com), click "Get Started", login, and click "Create New Space".
+
+Then, create the following files: `index.html`, `style.css`, and `script.js`. In your `index.html` file, copy/paste the following code:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Editor</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## HTML
 To begin, we're going to make all the elements that will be in our image editor. The layout will look like this:
@@ -336,7 +352,7 @@ Here's the result:
 
 ![CSS Result](https://cloud-i0vj1gzw6.vercel.app/0image.png)
 
-Repl.it should have automatically linked the `style.css` file for you, but if you don't see your changes reflect when you click the green "Run" button at the top, make sure you have this line in the `<head>` in your `index.html` file:
+Spaces should have inked the `style.css` file for you, but if you don't see your changes reflect when you run your code, make sure you have this line in the `<head>` in your `index.html` file:
 
 ```html
 <link rel="stylesheet" href="style.css">

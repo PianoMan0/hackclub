@@ -15,9 +15,24 @@ Aqui está a [demo ao vivo](https://mundo-vr.hcbjcentro.repl.co) e o [código fo
 
 Este workshop requer um conhecimento muito básico de HTML. Não se preocupe se você ficar preso em algum ponto do workshop, tudo é explicado da melhor maneira para que você entenda!
 
-Para este workshop usaremos o Repl.it, um editor de código online gratuito. Clique [aqui](https://repl.it/languages/html) para começar um novo projeto HTML no repl.it.
+Para este workshop, usaremos Spaces, um editor de código online gratuito para os membros do Hack Club.
 
-![Configuração](https://cloud-qbmylslty.vercel.app/0image.png)
+Acesse [spaces.hackclub.com](https://spaces.hackclub.com), clique em "Get Started" (Começar), faça login e clique em "Create New Space" (Criar Novo Espaço).
+Em seguida, crie os seguintes arquivos: index.html, style.css e script.js. No seu arquivo index.html, copie e cole o seguinte código:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>VR Worlds</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script src="script.js"></script>
+</body>
+</html>
+```
 
 ## Configurando a A-frame
 

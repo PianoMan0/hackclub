@@ -7,6 +7,8 @@ img: https://cloud-pq5lbfiab.vercel.app/2cover.png
 
 # Web Chat 
 
+NOTE: If you're following this workshop directly, it might not work right now. This workshop uses Replit, which has changed a lot since this workshop was first made. If you have enough experience to get through the workshop, great! If not, try one of our other [workshops](https://workshops.hackclub.com). Apologies for the inconvenience!
+
 Today, most of us use tons of messaging apps. Whether it's Slack, Whatsapp, Telegram, Hangouts, Discord, Facebook, Instagram, Messenger, Snapchat, Signal, Twitter, or iMessage, different friend circles will use different apps. 
 
 What if we create our *own chat*?!  

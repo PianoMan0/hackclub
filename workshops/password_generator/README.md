@@ -19,11 +19,23 @@ Basic knowledge of HTML, CSS, and JavaScript would be helpful for better underst
 
 # Part 2: Setup
 ## Setting up our code environment
-We’ll be using repl.it, a free, online code editor, to make this website. Get started by going to [repl.it/languages/html](https://repl.it/languages/html). Your coding environment will instantly spin up!
+We’ll be using Spaces, a free, online code editor, to make this website. Get started by going to [spaces.hackclub.com](https://spaces.hackclub.com). Click "Get Started", login, and click "Create New Space." Your coding environment will instantly spin up!
 
-![starting window of repl.it on navigating using above link](https://cloud-plumff9h8.vercel.app/0repl-starting-window.png) 
+Then, create the following files: `index.html`, `style.css`, and `script.js`. In your `index.html` file, copy/paste the following code:
 
-^ Right now, your page will look like this.
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>VR Worlds</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 # Part 3: Building the Project
 ## 1) HTML
@@ -349,6 +361,8 @@ Finally, we are done with the JavaScript part of our project.
 ![congratulations for completing your project](https://cloud-gqymfxotk.vercel.app/0finally_we_are_done__1_.gif)
 
 You accomplished it! Now your tool is fully functional and looks creative. 😍🥳
+
+Don't forget to ship your project in the [#ship](https://app.slack.com/client/E09V59WQY1E/C0M8PUPU6) channel on the Hack Club [Slack](https://hackclub.com/slack)!
 
 # Hacking
 Here are some hacks you can try in your project.

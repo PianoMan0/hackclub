@@ -14,34 +14,37 @@ Here's the [live demo](https://movie-selector.hariom04.repl.co/) and the [final 
 ^^^ If you will follow this workshop strictly then you will make something like the above picture, but feel free to add up your imaginations with patterns and colors and you will end up with something better than this. So let's begin. 😁✨
 
 # Part 1: Prerequisites
-* Account on Repl.it
 * Basic knowledge of HTML, CSS and JavaScript would be helpful but is not necessary to continue further.
 
 # Part 2: Setup
 ## Setting up our code environment
-In this workshop, we'll be using repl.it, a free, online code editor.
+In this workshop, we'll be using Spaces, a free, online code editor.
 
-You can get started with it by going to [repl.it/languages/html](https://repl.it/languages/html). You will directly land on the page where we can write our code.
+You can get started with it by going to [spaces.hackclub.com](https://spaces.hackclub.com). Click "Get Started", sign in, and click "Create New Space".
 
-![Default Code](https://cloud-2un6g11k6.vercel.app/0default-file.png)
+Once your Space is created, create some new files: `index.html`, `style.css`, and `script.js`. 
 
-^ Right now your page will look like this.
+In your `index.html` file, copy/paste the following code:
 
-# Part 3: Inspecting The Default Files 
-Here on the left side in the files section, you can see 3 files that are:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Spinning Wheel</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
-1. index.html
-2. script.js
-3. style.css
-
-Now let’s take a look at those and try to understand it individually.
+# Part 3: Inspecting The Code
+Now let’s take a look at your files and try to understand it individually.
 
 ## 1)	The HTML file
 HTML gives the structure to our webpage. Here in the first line, we have `<!DOCTYPE html>` which is used for specifying the version of HTML the document is using. Next, we have the `<title>` tag which specifies the title of our webpage that will be shown on the tab bar. Then we have `<body>` tag which contains the main visible part of our web page. Make sure that all the code you write is included between the opening and closing tags. ( `<body></body>` )
-  
-Make sure to remove line 5 (`<meta name="viewport" content="width=device-width">`) which may cause some weird responsiveness issues for our workshop.
-  
-![Removing the fifth line](https://cloud-2un6g11k6.vercel.app/2html-1.gif)
   
 ## 2)	The CSS file
 This is the `style.css` file in your directory. This defines the looks of our website. Whatever styles we give to our website is written in this file. If you take a look in the `<head>` tag in your HTML file, you will find a line of code (`<link href="style.css" rel="stylesheet" type="text/css" />`). This means that your HTML file is properly linked to your CSS file!
@@ -471,7 +474,8 @@ Finally, we are done with our coding part in JavaScript.
 We did it! Now our wheel is fully functional.
 
 # Part 5: Hacking
-First, if you haven't created an account on repl.it yet, I highly recommend doing so! Otherwise your project will be deleted after 24 hours.
+
+Dear hacker, there's always more you can add...
 
 Here are some things which you can do:
 

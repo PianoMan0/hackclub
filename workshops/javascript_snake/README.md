@@ -18,18 +18,18 @@ Although *technically*, there aren't any prerequisites, this workshop will be a 
 Workshops get really boring when they're absurdly long, so we'll be focusing on just JavaScript for most of it. However, we'll go over the starter template for clarification.
 
 ### And finally... your IDE
-An IDE (Integrated Development Environment) is just fancy speak for where your code will run. We'll be using [repl.it](https://repl.it) as our IDE because...  
+An IDE (Integrated Development Environment) is just fancy speak for where your code will run. We'll be using [Spaces](https://spaces.hackclub.com) as our IDE because...  
 1. It saves your code in the cloud
 2. All you need is an internet connection and a web browser
-3. It's really easy to fork from
+3. It's made by Hack Club!
 
 ## Lets begin, shall we?
 
 ### Step 0: ~~Stealing~~ Forking the starter template
 Yeah, I lied. Before we begin coding, we need to fork (copy) the starter template. Here's how ...
 1. Navigate to the [Starter Template](https://repl.it/@GurshanBrar/JavaScript-Snake-Starter#index.html)
-2. Edit anything and the template will be copied as one of your repls
-3. Click on the run button to run the website, and click on the "open in a new tab" button on the right of the url inside the repl's output.
+2. Go to [spaces.hackclub.com](https://spaces.hackclub.com) and create a new Space.
+3. Copy the code from the template to your Space.
 
 You can make a change now, like changing the pages title in the ```<title>``` tag or adding a random space. Another option is to wait until we start coding JavaScript!
 

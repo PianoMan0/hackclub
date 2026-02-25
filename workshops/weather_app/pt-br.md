@@ -21,19 +21,29 @@ Conhecimento básico de HTML, CSS e Javascript/JSON.
 
 Se você não conhece nenhum dos conceitos acima, não se preocupe! Este workshop irá guiá-lo através desses conceitos.
 
-## 2. Montagem do projeto no Repl.it
-
-Vamos usar o [Repl.it](https://repl.it) para este workshop. O Repl.it é um poderoso editor de código colaborativo on-line.
-
-Comece criando um [novo projeto HTML/CSS no repl.it](https://repl.it/languages/html).
-
-Você deve ver três arquivos: `index.html`, `style.css`, e `script.js`.
-
-![tela no repl.it](https://github.com/hack-club-brasil/v1/raw/main/docs/workshops/app-do-tempo/img/inicio.PNG)
+## 2. Configurando o projeto no Spaces
+Vamos usar [spaces.hackclub.com](https://spaces.hackclub.com) para esta oficina. Spaces é um editor de código online bem poderoso.
+Comece criando um novo Space.
+Depois, crie três arquivos: `index.html`, `style.css` e `script.js`.
 
 ## 3. Criando o esqueleto do app
 
-Vamos começar adicionando um pouco de código ao arquivo `index.html`. As linhas básicas já estão adicionadas no arquivo.
+Vamos começar adicionando um pouco de código ao arquivo `index.html`. Copie e cole o seguinte:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Aplicativo do Tempo</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 Na linha 1, temos `<!DOCTYPE html>`. Isto declara que este arquivo é um arquivo `HTML`. Se dermos uma olhada na tag `<html>`, encontraremos uma tag `<body>`. É lá que vamos escrever o código.
 Se você der uma olhada na tag `<head>` em seu `HTML`, você encontrará a linha de código:

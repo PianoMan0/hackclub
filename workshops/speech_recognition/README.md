@@ -19,13 +19,30 @@ In this workshop, you'll learn how to make a speech recognition app in just 20 m
 
 This workshop requires a very basic knowledge of HTML and JavaScript. Don’t worry if you get stuck at some point in the workshop, everything is explained the best way for you to understand!
 
-For this workshop we will use [Repl.it](https://repl.it/), a free, online code editor. Click [here](https://repl.it/languages/html) to get started with a new HTML project on repl.it.
+For this workshop we will use [Spaces](https://spaces.hackclub.com), a free, online code editor for Hack Clubbers. 
 
-![Setup](https://cloud-qbmylslty.vercel.app/0image.png)
+Go to [spaces.hackclub.com](https://spaces.hackclub.com), create a new Space, and let's get started!
 
 ## HTML
 
-When your repl spins up, you should be automatically dumped into the `index.html` file. If you don't, navigate to that file in the sidebar on the left.
+When your Space spins up, create an `index.html` file.
+
+Then copy/paste the following template:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Speech Recognition</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 The first thing we need to do is create a `div` container with the class `main-container` with 2 more `div` elements inside. The first `div` container will have 3 `button` elements in, and the second one will have a `textarea` element. Put all of this in between the `<body>` `</body>` tags.
 
@@ -241,9 +258,13 @@ Let's break this down:
 
 ### Running the program
 
-Alright, let's test it out! Click the green "Run" button at the top of your repl to run the program. I recommend opening the preview in a new tab. If all goes well, Google Chrome will prompt you to allow microphone access. Give it access to your microphone. Then, speak into your computer!
+Alright, let's test it out! Run your code :D
+
+If all goes well, Google Chrome will prompt you to allow microphone access. Give it access to your microphone. Then, speak into your computer!
 
 If it doesn't work, go through your code line by line and try to see if you can find what went wrong. If you're stuck, ask your club leader.
+
+_Not in a club? Ask in the Hack Club [Slack](https://hackclub.com/slack/)!_
 
 <details>
 
