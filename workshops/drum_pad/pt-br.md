@@ -25,9 +25,25 @@ Além de construir o drum pad, você também aprenderá sobre diferentes tipos d
 
 ## Começando
 
-Para este workshop, vamos usar o [repl.it](https://repl.it/), um editor de código online gratuito. Para começar, vá para [repl.it/languages/html](https://repl.it/languages/html). Seu ambiente de programação será gerado instantaneamente!
+Para este workshop, vamos usar [Spaces](https://spaces.hackclub.com), um editor de código online gratuito. Para começar, acesse [spaces.hackclub.com](https://spaces.hackclub.com). Clique no botão "Get Started" (Começar), faça login e clique no botão "Create New Space" (Criar Novo Espaço).
 
-Você verá que já existem três arquivos: `index.html`, `style.css` e `script.js`. Navegue até seu arquivo `index.html`, e trabalharemos na estrutura de nosso drum pad lá.
+Agora crie três arquivos: `index.html`, `style.css` e `script.js`. Navegue até o seu arquivo `index.html`, onde trabalharemos na estrutura do nosso pad de bateria.
+
+Agora copie/cole o seguinte código no seu arquivo `index.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Pad</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## HTML
 
@@ -68,7 +84,7 @@ Aqui, temos uma tag pai `div` que aninha nosso botões `divs`, e então rotulamo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Drum Pad</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -252,7 +268,7 @@ Se você executar seu código agora, verá seu drum pad funcionando!
 
 ## Hackeando
 
-Agora que você concluiu a construção, pode compartilhar sua bela criação com outras pessoas, copiando e colando o link do seu projeto. Compartilhe comigo no Slack! Sou o @emmanuel39.
+Agora que você terminou de construir, compartilhe sua criação no [Slack](https://hackclub.com/slack) no canal [#ship](https://app.slack.com/client/E09V59WQY1E/C0M8PUPU6)!
 
 Mas você ainda não terminou. Este projeto pode ser expandido de muitas maneiras. Aqui estão alguns exemplos:
 

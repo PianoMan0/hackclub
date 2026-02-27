@@ -31,7 +31,24 @@ If any of these concepts don't sound familiar to you, don't worry! We'll be lear
 Let's begin!
 
 # Getting started  
-We'll be using [repl.it](https://repl.it/) to make this project. Head on over to [https://repl.it/languages/HTML](https://repl.it/languages/HTML) to start coding. It's suggested that you make an account so you don't lose your code. 
+We'll be using [Spaces](https://spaces.hackclub.com) to make this project. Head on over to [spaces.hackclub.com](https://spaces.hackclub.com) to start coding. Click the "Get Started" button, login, and click the "Create New Space button".
+
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file and copy/paste the following code:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather Grapher</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## Loading Bootstrap and Chart.js
 We'll be using Bootstrap to quickly style our interface and give it a clean look. We're simply using a CDN, a content delivery network, to load Bootstrap and the Chart.js library so we can use it later. [*What's a CDN?*](https://www.sitepoint.com/what-is-a-cdn-and-how-does-it-work/)
@@ -118,7 +135,7 @@ We're finally done with the HTML! It's time to tackle the JavaScript.
 Yay! Now that we've finished writing HTML, it's time to start making it work with JavaScript.
 
 ## Setting up the Chart   
-To get started with the Chart.js library, head on over to the documentation [here](https://www.chartjs.org/docs/latest/). You'll see a starter template for us to use. Copy only the `ctx` and `myChart` variables. Then, navigate to the `script.js` file on the left side of your repl and paste those two variables in. This code creates a `Chart` object which we store in the variable `myChart`. The first argument in the constructor must be a drawing context that refers to the HTML canvas element that we want to draw to, which is the `ctx` variable. 
+To get started with the Chart.js library, head on over to the documentation [here](https://www.chartjs.org/docs/latest/). You'll see a starter template for us to use. Copy only the `ctx` and `myChart` variables. Then, navigate to your `script.js` file and paste those two variables in. This code creates a `Chart` object which we store in the variable `myChart`. The first argument in the constructor must be a drawing context that refers to the HTML canvas element that we want to draw to, which is the `ctx` variable. 
 
 Change `myChart` variable to be a `let` variable and the `ctx` to a `const` variable, since we want to avoid using `var` to declare variables because of [ES6 conventions](https://javascript.info/var). The second argument in the constructor is an object with data that specifies how our chart will look like. Because we want our graph to start off empty, do the following:    
 
@@ -360,7 +377,7 @@ function updateChart(inputData, cityName) {
 }
 ```
 
-Now, if you click the green "Run" button at the top of your repl, you should see a graph!
+Now when you run your code, you should see a graph!
 
 Congratulations! You just built an awesome weather grapher project while also learning about `fetch()`, `async/await`, and the Chart.js library! 
 

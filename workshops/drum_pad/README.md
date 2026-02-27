@@ -24,9 +24,26 @@ Apart from building the drum pad, you will also be learning about different type
 
 ## Getting started
 
-For this workshop, we're going to be using [repl.it](https://repl.it/), a free, online code editor. To begin, go to [repl.it/languages/html](https://repl.it/languages/html). Your coding environment will spin up instantly!
+For this workshop, we're going to be using [Spaces](https://spaces.hackclub.com), a free, online code editor. To begin, go to [spaces.hackclub.com](https://spaces.hackclub.com). Click the "Get Started" button, login, and click the "Create New Space button".
 
-You will see that there are already three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, and we will work on the structure of our drum pad there. 
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, where we will work on the structure of our drum pad.
+
+Now copy/paste the following code into your `index.html` file:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Pad</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## HTML
 
@@ -69,7 +86,7 @@ Here, we have a parent `div` tag that nests our button `divs`, and then we label
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>repl.it</title>
+    <title>Drum Pad</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -255,7 +272,7 @@ If you run your code now, you should see a working drum pad!
 
 ## Hacking
 
-Now that you have finished building, you can share your beautiful creation with other people by copy/pasting the link to your repl. Also share it with me on Slack! I'm @emmanuel39hanks.
+Now that you have finished building, share your creation on [Slack](https://hackclub.com/slack/) in the [#ship](https://app.slack.com/client/E09V59WQY1E/C0M8PUPU6) channel!
 
 But you're not done yet. There are many ways this project can be expanded on. Here are a few examples:
 
