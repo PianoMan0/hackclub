@@ -5,6 +5,8 @@ author: '@hackyguru'
 img: 'https://cloud-2j32ffnay.vercel.app/0screen_shot_2021-01-19_at_9.58.49_pm.png'
 ---
 
+NOTE: If you're following this workshop directly, it might not work right now. This workshop uses Replit, which has changed a lot since this workshop was first made. If you have enough experience to get through the workshop, great! If not, try one of our other [workshops](https://workshops.hackclub.com). Apologies for the inconvenience!
+
 Creating mockups for websites manually can be pretty time-consuming. In this workshop, we're going to make it easy by writing our own website mockup generator with HTML, CSS, and JavaScript!
 
 Here's what it'll look like:

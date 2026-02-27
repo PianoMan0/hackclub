@@ -25,21 +25,36 @@ You should have a basic understanding of:
 
 ## Setup
 
-### Setting up Environment on Repl.it
+### Setting up Environment on Spaces.hackclub.com
 
-[Repl.it](https://repl.it) is a great online IDE to let you make this project. Repl.it is not mandatory but it is what I will be using throughout this workshop.
+[Spaces](https://spaces.hackclub.com) is a great online IDE to let you make this project. Spaces is not mandatory but it is what I will be using throughout this workshop.
 
-To create your repl, go to [https://repl.it/languages/html](https://repl.it/languages/html). You may need to sign up, so you can use any of the options there to sign up.
+To create your virtual development environment, go to [spaces.hackclub.com](https://spaces.hackclub.com). You may need to sign up, so you can use any of the options there to sign up.
 
-After a few seconds you should see this page.
-
-![Repl.it Home Screen for HTML Language](https://cloud-phzgv7tcx.vercel.app/0unknown.png)
-
-## Learning the Default Files
+## Creating the Files
 
 ### HTML File
 
-Let's first start looking at the default `index.html` file.
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, where we will work on the structure of our project.
+
+Now copy/paste the following code into your `index.html` file:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>EchoAR Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+
+Let's inspect this code.
 
 At the top of the file we have `<!DOCTYPE html>`. This line helps tell the browser that this is an `HTML` file. We then have the `<html>` and `<head>` tag. Inside the `<head>` tag we will add our imports.
 

@@ -5,6 +5,8 @@ author: '@khrj'
 img: https://cloud-b0r4v3fgu.vercel.app/0screenshot_2020-12-31_at_3.22.47_pm.png
 ---
 
+NOTE: If you're following this workshop directly, it might not work right now. This workshop uses Replit, which has changed a lot since this workshop was first made. If you have enough experience to get through the workshop, great! If not, try one of our other [workshops](https://workshops.hackclub.com). Apologies for the inconvenience!
+
 Love [Kahoot](https://kahoot.com/)? I do! Today we're making a Kahoot clone—Kuizzy—using :
 
 - [SweetAlert](https://sweetalert.js.org/), a beautiful JS alert library which serves as a replacement for the default [JavaScript alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert), 
@@ -13,7 +15,7 @@ Love [Kahoot](https://kahoot.com/)? I do! Today we're making a Kahoot clone—Ku
 
 Here's the [final code](https://github.com/khrj/hackclub-workshops/blob/main/showcase/Kuizzy/app.js) and [live demo](https://kuizzy.khushrajrathod.com).
 
-If you get stuck anywhere in this workshop, I'm @KhushrajRathod -- feel free to ping me.
+If you get stuck anywhere in this workshop, I'm @KhushrajRathod -- feel free to ping me on [Slack](https://hackclub.com/slack).
 
 ## Prerequisites
 

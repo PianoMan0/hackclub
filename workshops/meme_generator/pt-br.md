@@ -23,17 +23,26 @@ Conhecimento básico de:
 
 ## Parte 2: Configurando o Ambiente
 
-Nós estaremos utilizando um editor de código online chamado [repl.it](https://repl.it) para este workshop.
+Para este workshop, usaremos um editor de código online chamado Spaces.
 
-Para começarmos, vá para [https://repl.it/languages/html](https://repl.it/languages/html). Caso você não tenha cadastro, uma tela parecida com a abaixo aparecerá:
+Para começar, acesse spaces.hackclub.com. Clique no botão "Get Started" (Começar), faça login e clique no botão "Create New Space" (Criar Novo Espaço).
 
-![Página web do repl.it com um botão de cadastro no meio da tela](https://raw.githubusercontent.com/hack-club-brasil/v1/main/docs/workshops/gerador-de-memes/img/replit_signup.png)
+Agora, crie três arquivos: `index.html`, `style.css` e `script.js`. Navegue até o seu arquivo `index.html`, onde trabalharemos na estrutura do nosso drum pad (bateria eletrônica).
 
-Clique no botão azul no meio da tela e crie uma conta no repl.it caso ainda não tenha e seu ambiente de desenvolvimento vai aparecer em poucos segundos!
-
-![Doge animado em um foguete](https://raw.githubusercontent.com/hack-club-brasil/v1/main/docs/workshops/gerador-de-memes/img/doge_foguete.gif)
-
-Se você está tendo problemas para se cadastrar, fale com um líder de seu clube ou com alguém no [Slack do Hack Club](https://hackclub.com/slack), ou na [Comunidade Brasileira do Hack Club][discord]!
+Agora, copie e cole o seguinte código no seu arquivo `index.html`:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Drum Pad</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<script src="script.js"></script>
+</body>
+</html>
+```
 
 ## Parte 3: Construindo o Projeto
 

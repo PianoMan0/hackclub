@@ -60,27 +60,15 @@ We will be using a library called Processing.js, which makes it super easy to wr
 
 ## Part 3: Getting started
 
-### Setting up Repl.it
+### Setting up Spaces
 
-We're going to be writing our code in an online code editor called [Repl.it](https://repl.it). To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). Your coding environment will be created in a few moments.
-
-![Setting up repl.it](https://cloud-flfptkrmk.vercel.app/0setuprepl.gif)
-
-Once your repl is setup, you are all set to continue!
+We're going to be writing our code in an online code editor called [Spaces](https://spaces.hackclub.com). To get started, go to [spaces.hackclub.com](https://spaces.hackclub.com). Click the "Get Started" button, login, and click the "Create New Space button".
 
 ## Part 4: Setting Up The Required Files
 
-### 1) Deleting unnecessary files
+### Creating the Java file
 
-When your repl starts up, you should see 3 files on the sidebar to the left: `index.html`, `style.css`, and `script.js`. Delete `style.css` and `script.js`. We're not going to be using them for this workshop.
-
-![Deleting files](https://cloud-63ot6za6a.vercel.app/0deletingfiles.gif)
-
-### 2) Creating the Java file
-
-As mentioned earlier, we're going to be writing the functionality for the pixel art pad in Java. So, let's create a file called `index.java` by clicking the "new file" icon at the top of the sidebar.
-
-![Creating index.java](https://cloud-czzce7b1v.vercel.app/0creatingjava.gif)
+As mentioned earlier, we're going to be writing the functionality for the pixel art pad in Java. So, let's create a file called `index.java` by clicking the "new file" icon at the top of the sidebar. We'll also be using a bit of HTML, so create `index.html` as well.
 
 You should now have two files called `index.html` and `index.java`.
 
@@ -88,63 +76,7 @@ You should now have two files called `index.html` and `index.java`.
 
 ### 1) index.html
 
-First, let's write the required HTML code for the pixel art pad. Repl.it should have already added some starter code to the `index.html` file:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
-</html>
-```
-
-Replace the text inside the `<title>` tag to the title you want. In my case, I am replacing it with:
-
-```html 
-<title>Pixel Art Pad</title>
-```
-
-Next, since we're not going to be writing CSS in this workshop, you can remove the line that links the CSS file to the HTML file. Delete the line that looks like this:
-
-```html
-<link href="style.css" rel="stylesheet" type="text/css" />
-```
-
-Similarly, since we no longer have a JavaScript file to link, you can also remove this line:
-
-```html
-<script src="script.js"></script>
-```
-
-Finally, go ahead and delete everything between the `<body>` `</body>` tags and replace it with:
-
-```html
-<body>
-  <center>
-    <h1>Pixel Art Pad</h1>
-    <br>
-    <canvas data-processing-sources="index.java"></canvas>
-  </center>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-</body>
-```
-
-Here, we're:
-
-- adding a heading (`<h1>`) to the top of the page
-- adding a line break (`<br>`)
-- creating an [HTML Canvas](https://www.w3schools.com/html/html5_canvas.asp) and linking our Java file to it (this is where our pixel art pad will appear!)
-- wrapping everything in a `<center>` tag so that we can center everything without having to write CSS. `<center>` is an obsolete element and you should not use it in your own projects, but in the spirit of hacking our way to a solution without considering bad practice, we're using it in this project.
-- importing the Processing.js library, which we'll use to create our pixel art pad
-
-#### Final index.html code:
+First, let's write the required HTML code for the pixel art pad.
 
 ```html
 <!DOCTYPE html>
@@ -164,6 +96,15 @@ Here, we're:
   </body>
 </html>
 ```
+
+Here, we're:
+
+- setting up a basic html template
+- adding a heading (`<h1>`) to the top of the page
+- adding a line break (`<br>`)
+- creating an [HTML Canvas](https://www.w3schools.com/html/html5_canvas.asp) and linking our Java file to it (this is where our pixel art pad will appear!)
+- wrapping everything in a `<center>` tag so that we can center everything without having to write CSS. `<center>` is an obsolete element and you should not use it in your own projects, but in the spirit of hacking our way to a solution without considering bad practice, we're using it in this project.
+- importing the Processing.js library, which we'll use to create our pixel art pad
 
 And that's it! We have completed writing our HTML.
 
@@ -540,7 +481,7 @@ void mousePressed()
 
 </details>
 
-And with that, you've finished! Run the code by clicking the green "Run" button at the top of your repl. If all goes well, you should see something like this:
+And with that, you've finished! Time to run your code. If all goes well, you should see something like this:
 
 ![Pressing the run button](https://cloud-r25cunjgf.vercel.app/0running.gif)
 

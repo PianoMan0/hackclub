@@ -17,9 +17,26 @@ In this workshop you'll learn how to make a painting application using HTML, CSS
 
 This workshop requires some basic knowledge of HTML, CSS, & JavaScript. Don’t worry if you get stuck at some point in the workshop, everything is explained the best way for you to understand!
 
-For this workshop we will use [Repl.it](https://repl.it), a free, online code editor. Click [here](https://repl.it/languages/HTML) to create an HTML project on repl.it. Once your coding environment spins up, you should see this:
+For this workshop we will use [Spaces](https://spaces.hackclub.com), a free, online code editor for Hack Clubbers. To begin, go to [spaces.hackclub.com](https://spaces.hackclub.com). Click the "Get Started" button, login, and click the "Create New Space button".
 
-![Setup](https://cloud-qbmylslty.vercel.app/0image.png)
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, where we will work on the structure of our painting app.
+
+Now copy/paste the following code into your `index.html` file:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Painting App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## HTML
 

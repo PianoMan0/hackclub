@@ -24,9 +24,28 @@ Basic knowledge of:
 
 ## Part 2: Setting Up The Environment
 
-We'll be using an online code editor called [repl.it](https://repl.it) for this workshop.
+We'll be using an online code editor called [Spaces](https://spaces.hackclub.com) for this workshop.
 
-To get started, go to [https://repl.it/languages/html](https://repl.it/languages/html). Your coding environment will spin up in just a few seconds!
+To begin, go to [spaces.hackclub.com](https://spaces.hackclub.com). Click the "Get Started" button, login, and click the "Create New Space button".
+
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, where we will work on the structure of our drum pad.
+
+Now copy/paste the following code into your `index.html` file:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Drum Pad</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ![Excited doge](https://cloud-4560ajsyp.vercel.app/0giphy.gif)
 
@@ -445,10 +464,6 @@ Here are some things you can try to add:
 
 ## Part 5: The End
 
-If you haven't created an account on [repl.it](https://repl.it), make sure you do so to save this wonderful creation!
-
-If you're having trouble signing up, ask your club leader or someone on the [Hack Club Slack](https://hackclub.com/slack)!
-
 ### Some More Examples
 
 * [Ninivert](https://codepen.io/ninivert/pen/BpLKRx)
@@ -468,4 +483,4 @@ Now that you have finished building an awesome project, you should share it with
 
 In a new tab, open and follow [these](https://slack.hackclub.com/) directions to sign up for our Slack. Then, post the link to the `#ship` channel to share it with everyone!
 
-P.S I'm @Aaryan Porwal on Hack Club's Slack.
+P.S I'm [@Aaryan Porwal](https://hackclub.enterprise.slack.com/team/U015YUC8MEX) on Hack Club's Slack.

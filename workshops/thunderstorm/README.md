@@ -5,6 +5,8 @@ author: '@polytroper'
 img: 'https://cloud-5bblxtvxm-hack-club-bot.vercel.app/0screenshot_2023-04-15_at_1.17.54_pm.png'
 ---
 
+NOTE: If you're following this workshop directly, it might not work right now. This workshop uses Replit, which has changed a lot since this workshop was first made. If you have enough experience to get through the workshop, great! If not, try one of our other [workshops](https://workshops.hackclub.com). Apologies for the inconvenience!
+
 Ever wanted your own private, portable thunderstorm?
 
 Well I have, so I built one—[check it out here](https://thunderstorm--polytrope.repl.co).

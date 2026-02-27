@@ -15,9 +15,28 @@ Here you can find a [live demo](https://chart-generator-def.wollygfx.repl.co) an
 
 This workshop requires a very basic knowledge of the following languages: HTML & JS. Don’t worry if you get stuck at some point in the workshop, everything is explained for you to understand!
 
-For this workshop we will use [Repl.it](https://repl.it), a free, online code editor. Click [here](https://repl.it/languages/html) to create a coding environment.
+For this workshop we will use [Spaces](https://spaces.hackclub.com), a free, online code editor for Hack Clubbers. 
 
-![Setup](https://cloud-qbmylslty.vercel.app/0image.png)
+To begin, go to [spaces.hackclub.com](https://spaces.hackclub.com). Click the "Get Started" button, login, and click the "Create New Space button".
+
+Now create three files: `index.html`, `style.css`, and `script.js`. Navigate to your `index.html` file, where we will work on the structure of our drum pad.
+
+Now copy/paste the following code into your `index.html` file:
+
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Charts Site</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
 
 ## HTML
 
@@ -70,7 +89,7 @@ Let's break this down:
 - The `justify-content` property defines how the browser distributes space between and around content items along the [main-axis](https://developer.mozilla.org/en-US/docs/Glossary/Main_Axis) of a flex container, and the inline axis of a grid container.
 - In CSS, this is what's known as flexbox. [Learn more about flexbox here!](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-When you click on the green *Run* button at the top of your repl, you'll see that the elements are perfectly aligned to the center.
+When you run your code, you'll see that the elements are perfectly aligned to the center.
 
 ![Div aligned to the center](https://cloud-48yrakqtz.vercel.app/0image.png)
 
